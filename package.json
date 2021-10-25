@@ -1,0 +1,41 @@
+{
+  "name": "@lightpillow/react-components",
+  "version": "0.0.1",
+  "description": "LightPillow's React components",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepack": "rm -rf ./lib && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LightPillow/react-components.git"
+  },
+  "author": "Ben",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LightPillow/react-components/issues"
+  },
+  "homepage": "https://github.com/LightPillow/react-components",
+  "peerDependencies": {
+    "react": "*",
+    "@faasjs/react": "*",
+    "dayjs": "*"
+  },
+  "devDependencies": {
+    "@faasjs/eslint-config-react": "beta",
+    "@types/react": "*",
+    "react": "*",
+    "rollup": "*",
+    "rollup-plugin-typescript2": "*",
+    "typescript": "*"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@faasjs/react"
+    ]
+  }
+}
