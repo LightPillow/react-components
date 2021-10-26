@@ -14,10 +14,10 @@
     "jsx": "react",
     "lib": [
       "dom",
-      "dom.iterable",
       "esnext"
     ],
-    "baseUrl": "src"
+    "baseUrl": "src",
+    "rootDir": "./src"
   },
   "include": [
     "src"
